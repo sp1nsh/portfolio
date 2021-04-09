@@ -31,10 +31,12 @@ html{
     flex-direction: column;
     justify-content: space-evenly;
     cursor: pointer;
+    z-index: 151;
 }
 
 .show-menu .hamburguer{
     right: 16rem;
+    transition: 1s;
 }
 
 .line{
